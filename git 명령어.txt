@@ -1,0 +1,20 @@
+깃에 대해 배운 것
+
+git 은 올리기 전에 스테이징 상태로 들어간다. 어떤 파일을 커밋(스냅샷)할 건지 고르는 개념
+
+git commit -am "메시지"
+
+라고 치면, 스테이징(add), 메시지 적기를 동시에 할 수 있다
+모든 파일을 add하고 싶을 때는
+
+git add *   
+
+git을 당겨올 때는 git pull
+
+브랜치 변경은 git checkout <바꾸는 브랜치>
+
+
+로컬과 연결된 저장소를 지정할 땐 --set-upstream 옵션을 사용하고,
+다음 번부터는 다시 써주지 않아도 된다.
+git push --set-upstream origin master
+
